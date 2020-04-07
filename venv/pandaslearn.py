@@ -370,7 +370,3 @@ Pandas 绘图操作
 # plt.title("喜欢",fontsize = 16,color = 'blue')
 # df.plot(x ="month",  y ="advertising", secondary_y=True, ax=ax) #DataFrame 柱形图：
 # plt.show()
-
-for i in range(1,101):
-        if not i % 7 == 0 and not i % 10  == 7 and not i // 10 == 7:
-                print(i)
